@@ -1,0 +1,22 @@
+************Functional review********************
+
+Review requirement understanding of developer, check if person missed any use case
+Check if the functionality is working as per mentioned in the requirements
+Review the screen if there is any usability mistake
+
+
+***********************Business Logic Review**************************
+
+Check if code is readable (tab spacing, variable names, function names, urls)
+Check if there is any unwanted code (commented code, unused variables or functions, debug logs)
+Does code follows coding standards (it should be related to project)
+Code should follow as much as SOLID principles (Single responsibility has to follow)
+Check if there is any redundant code, generally people used to copy and paste logic rather than creating common function
+Functions should have validation before storing data into database or sending to server API
+Form or input values should be type cast
+Code should handle positive and negative scenarios (if paramters are invalid code should return error else it should process as per expectation)
+Error handling should be handle on client side (e.g. Ajax or Angular HTTP requests)
+Check the database changes (indexes, table structure, field types, joins)
+Check if the sensitive data is stored in plain text (like password, tokens)
+If there is payment transaction happening then it should be on HTTPS request
+Try to avoid loops and complex logic
